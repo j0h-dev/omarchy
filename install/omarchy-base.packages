@@ -3,7 +3,6 @@
 
 1password-beta
 1password-cli
-alacritty
 asdcontrol-git
 avahi
 bash-completion
@@ -31,6 +30,7 @@ fd
 ffmpegthumbnailer
 fontconfig
 fzf
+ghostty
 github-cli
 gnome-calculator
 gnome-keyring

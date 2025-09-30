@@ -37,7 +37,7 @@ menu() {
 }
 
 terminal() {
-  alacritty --class=Omarchy -e "$@"
+  ghostty --class=Omarchy -e "$@"
 }
 
 present_terminal() {
@@ -239,7 +239,6 @@ show_install_menu() {
   *Style*) show_install_style_menu ;;
   *Development*) show_install_development_menu ;;
   *Editor*) show_install_editor_menu ;;
-  *Terminal*) show_install_terminal_menu ;;
   *AI*) show_install_ai_menu ;;
   *Gaming*) show_install_gaming_menu ;;
   *) show_main_menu ;;
@@ -264,15 +263,6 @@ show_install_editor_menu() {
   *Sublime*) aur_install_and_launch "Sublime Text" "sublime-text-4" "sublime_text" ;;
   *Helix*) install "Helix" "helix" ;;
   *Emacs*) install "Emacs" "emacs-wayland" && systemctl --user enable --now emacs.service ;;
-  *) show_install_menu ;;
-  esac
-}
-
-show_install_terminal_menu() {
-  case $(menu "Install" "  Alacritty\n  Ghostty\n  Kitty") in
-  *Alacritty*) install_terminal "alacritty" ;;
-  *Ghostty*) install_terminal "ghostty" ;;
-  *Kitty*) install_terminal "kitty" ;;
   *) show_install_menu ;;
   esac
 }
