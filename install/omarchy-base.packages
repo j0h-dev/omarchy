@@ -8,15 +8,10 @@ bat
 blueberry
 brightnessctl
 btop
-cargo
-clang
 cups
 cups-browsed
 cups-filters
 cups-pdf
-docker
-docker-buildx
-docker-compose
 dust
 evince
 eza
@@ -29,7 +24,6 @@ ffmpegthumbnailer
 fontconfig
 fzf
 ghostty
-github-cli
 gnome-calculator
 gnome-keyring
 gnome-themes-extra
@@ -49,7 +43,6 @@ imv
 inetutils
 iwd
 jq
-kdenlive
 kvantum-qt5
 lazydocker
 lazygit
@@ -58,7 +51,6 @@ libyaml
 libqalculate
 libreoffice
 llvm
-localsend
 luarocks
 mako
 man
@@ -71,11 +63,8 @@ noto-fonts-emoji
 noto-fonts-extra
 nss-mdns
 nvim
-obs-studio
-obsidian
 omarchy-lazyvim
 pamixer
-pinta
 playerctl
 plocate
 plymouth
@@ -88,9 +77,7 @@ python-terminaltexteffects
 qt5-wayland
 ripgrep
 satty
-signal-desktop
 slurp
-spotify
 starship
 sushi
 swaybg
