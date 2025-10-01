@@ -1,0 +1,5 @@
+# ---------------------
+# Arrow keys
+# ---------------------
+bindkey '^[[C' forward-char                  # Right arrow
+bindkey '^[[D' backward-char                 # Left arrow

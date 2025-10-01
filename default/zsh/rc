@@ -1,0 +1,9 @@
+source ~/.local/share/omarchy/default/zsh/shell
+source ~/.local/share/omarchy/default/zsh/aliases
+source ~/.local/share/omarchy/default/zsh/functions
+source ~/.local/share/omarchy/default/zsh/prompt
+source ~/.local/share/omarchy/default/zsh/init
+source ~/.local/share/omarchy/default/zsh/envs
+if [[ $- == *i* ]] && [[ -f ~/.local/share/omarchy/default/zsh/inputrc ]]; then
+  source ~/.local/share/omarchy/default/zsh/inputrc
+fi
