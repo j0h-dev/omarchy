@@ -37,7 +37,7 @@ menu() {
 }
 
 terminal() {
-  ghostty --class=Omarchy -e "$@"
+  ghostty --class=os.omarchy -e "$@"
 }
 
 present_terminal() {
