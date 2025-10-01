@@ -107,6 +107,10 @@ woff2-font-awesome
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xmlstarlet
+zsh
+zsh-autocomplete
+zsh-autosuggestions
+zsh-syntax-highlighting
 yaru-icon-theme
 yay
 zoxide
