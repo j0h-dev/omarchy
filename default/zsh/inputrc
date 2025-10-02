@@ -1,5 +1,8 @@
 # ---------------------
 # Arrow keys
 # ---------------------
-bindkey '^[[C' forward-char                  # Right arrow
-bindkey '^[[D' backward-char                 # Left arrow
+bindkey '^[[C' forward-char         # Right arrow
+bindkey '^[[D' backward-char        # Left arrow
+
+bindkey '^[[1;5C' forward-word      # Forward by word
+bindkey '^[[1;5D' backward-word     # Back by word
