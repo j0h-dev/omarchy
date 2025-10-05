@@ -1,6 +1,9 @@
 #!/bin/bash
 
-if [ "$(uname -r | sed 's/-arch/\.arch/')" != "$(pacman -Q linux | awk '{print $2}')" ]; then
+KERNEL_VERSION=$(uname -r | sed 's/-[^-]*$//')
+KERNEL_PKG="${KERNEL_PKG:-linux}"
+
+if [ "$KERNEL_VERSION" != "$(yay -Q "$KERNEL_PKG" | awk '{print $2}')" ]; then
   gum confirm "Linux kernel has been updated. Reboot?" && omarchy-state clear re*-required && sudo reboot now
 
 elif [ -f "$HOME/.local/state/omarchy/reboot-required" ]; then

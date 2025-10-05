@@ -1,4 +1,7 @@
 # Changes require a relaunch of Hyprland to take effect.
 
+# Change this if you use some other kernel
+# export KERNEL_PKG=linux
+
 export TERMINAL=ghostty
 export EDITOR=nvim
