@@ -8,7 +8,7 @@ Name to be changed for something unique
 
 2. Get you network going
 
-3. Run archinstall and pick these options
+3. Run `archinstall` and pick these options
     - Mirrors and repositories: Select regions > Your country
     - Disk configuration: Partitioning > Default partitioning layout > Select disk (with space + return)
     - Disk > File system: btrfs (default structure: yes + use compression)
