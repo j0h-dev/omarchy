@@ -1,7 +1,7 @@
 # Omarchy core package list installed via install/packages.sh
 # This file is also used by the ISO builder when determining needs
 
-asdcontrol-git
+asdcontrol
 avahi
 bash-completion
 bat
