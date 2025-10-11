@@ -1,122 +1,111 @@
 @import "../../../../../../../.config/omarchy/current/theme/walker.css";
 
 * {
-  all: unset;
+    all: unset;
 }
 
 * {
-  font-family: monospace;
-  font-size: 18px;
-  color: @text;
+    font-family: monospace;
+    font-size: 16px;
+    color: @text;
 }
 
 scrollbar {
-  opacity: 0;
+    opacity: 0;
 }
 
 .normal-icons {
-  -gtk-icon-size: 16px;
+    -gtk-icon-size: 14px;
 }
 
 .large-icons {
-  -gtk-icon-size: 32px;
+    -gtk-icon-size: 28px;
 }
 
 .box-wrapper {
-  background: alpha(@base, 0.95);
-  padding: 20px;
-  border: 2px solid @border;
-  border-radius: 0px;
+    background: alpha(@base, 0.95);
+    padding: 24px;
+    border: 2px solid @border;
+    border-radius: 0px;
 }
 
-.preview-box {
-}
+.preview-box {}
 
-.box {
-}
+.box {}
 
 .search-container {
-  background: @base;
-  padding: 10px;
+    background: @base;
+    padding: 8px;
 }
 
 .input placeholder {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
-.input {
-}
+.input {}
 
 .input:focus,
 .input:active {
-  box-shadow: none;
-  outline: none;
+    box-shadow: none;
+    outline: none;
 }
 
-.content-container {
-}
+.content-container {}
 
-.placeholder {
-}
+.placeholder {}
 
-.scroll {
-}
+.scroll {}
 
-.list {
-}
+.list {}
 
 child,
-child > * {
-}
+child>* {}
 
-child:hover .item-box {
-}
+child:hover .item-box {}
 
-child:selected .item-box {
-}
+child:selected .item-box {}
 
 child:selected .item-box * {
-  color: @selected-text;
+    color: @selected-text;
 }
 
 .item-box {
-  padding-left: 14px;
+    padding-left: 8px;
 }
 
 .item-text-box {
-  all: unset;
-  padding: 14px 0;
+    all: unset;
+    padding: 12px 0;
 }
 
-.item-text {
-}
+.item-text {}
 
 .item-subtext {
-  font-size: 0px;
-  min-height: 0px;
-  margin: 0px;
-  padding: 0px;
+    font-size: 0px;
+    min-height: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .item-image {
-  margin-right: 14px;
-  -gtk-icon-transform: scale(0.9);
+    margin-right: 12px;
+    -gtk-icon-transform: scale(0.9);
 }
 
 .item-box.calc .item-image {
-  -gtk-icon-source: url("file:///home/ryan/Downloads/gitlab.svg");
+    -gtk-icon-source: url("file:///home/ryan/Downloads/gitlab.svg");
 }
 
 .current {
-  font-style: italic;
+    font-style: italic;
 }
 
 .keybind-hints {
-  background: @background;
-  padding: 10px;
-  margin-top: 10px;
+    background: @background;
+    padding: 8px;
+    margin-top: 8px;
 }
 
 .preview {
-  background: @background;
+    background: @background;
 }
